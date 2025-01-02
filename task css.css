@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    
+}
+.logo{
+    margin-left: 30px;
+    font-size: large;
+}
+.logo ::first-letter{
+    color: yellow;
+}
+header a{
+    padding: 0 5px;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+}
+header nav{
+    padding-left: 750px;
+    
+}
+.home{
+    color: rgb(25, 219, 25);
+}
+.boder{
+    border-color: white;
+    font-size: 15px;
+}
+.h2{
+    font-size: xx-large;
+}
+.div1{
+    background-color: aliceblue;
+    background-size: cover;
+    padding-left: 4%;
+    padding-top: 8%;
+}
+.gets{
+    background-color:  rgb(25, 219, 25);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border-style: none;
+}
+.watch{
+    color:rgb(25, 219, 25);
+    border-style: none;
+    background-color: transparent;
+    padding-left: 10px;
+}
+img{
+    width: 500px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+   }
+.div3{
+    display: flex;
+    background-color:aliceblue ;
+}
+.new{
+    background-color: aliceblue;
+    height: 100px;
+    display: flex;
+    
+    
+}
+.Lorem{
+    margin-left: 20%;
+    background-color: white;
+    width: 120px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+.ac{
+    margin-left: 40px;
+    background-color: white;
+    width: 120px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.ad{
+    margin-left: 40px;
+    background-color: white;
+    width: 120px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.af{
+    margin-left: 40px; background-color: white;
+    width: 120px;
+    padding-top: 40px;
+    padding-left: 30px;
+}

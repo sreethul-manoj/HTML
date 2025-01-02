@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(5, 5, 5);
+  cursor: wait;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+ul.a{
+    list-style-type: circle;
+}
+ul.b{
+    list-style-type: upper-roman;
+    background-color: pink;
+}
+ol.c{
+    list-style-type: upper-roman;
+    background-color: red;
+}
+div{
+    max-width: 450px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="default.asp" target="_blank">Sreethul</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+<br><br><br>
+
+
+<p><h1>css.list</h1></p>
+<h2>The list-style-type Property</h2>
+
+<p>Example of unordered lists:</p>
+<ul class="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<ul class="b">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<p>Example of ordered lists:</p>
+<ol class="c">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ol class="d">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+<br><br><br>
+
+<h1>width</h1>
+<div class="1">
+<p>This div element has width: 500px:</p></div>
+
+
+
+</body>
+</html>
+
+
